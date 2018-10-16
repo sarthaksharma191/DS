@@ -46,7 +46,7 @@ class array1
 		void location()
 		{
 			int ele1,i;
-			cout<<"Enter element you want to search\n";
+			cout<<"Enter the element you want to search\n";
 			cin>>ele1;
 			int f=0;
 			for(i=0;i<size;i++)
@@ -54,7 +54,7 @@ class array1
 				if(arr[i]==ele1)
 				{
 					f=1;
-					cout<<"Element is found at pos "<<i<<endl;
+					cout<<"Element is found at position "<<i<<endl;
 				}
 			}
 			if(f==0)
@@ -108,4 +108,5 @@ int main()
 		        break;			
 	    }
     }
+	cout<<"Exiting Program.../";
 }
